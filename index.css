@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+    font-style: normal;
+    text-decoration: none;
+}
+body{
+   /* background-image: url(https://img.freepik.com/free-photo/view-apocalyptic-dark-clouds_23-2151065802.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716681600&semt=ais_user);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; */
+   background-image: linear-gradient(45deg,  grey, rgb(51, 51, 110), black);
+
+   height: 100vh;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background-image: radial-gradient( grey, rgb(51, 51, 110), black);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0px 0px 10px whitesmoke;
+
+}
+.card:hover{
+    box-shadow: 5px 5px 30px white;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button:hover{
+    box-shadow: 0px 0px 10px black;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin: -10px;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.col{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+.humidity,.wind{
+    margin: 20px;
+    font-size: 28px;
+    margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+
+}
+nav{
+    height: 80px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(192, 186, 186);
+    border-bottom: 1px solid red;
+    box-shadow: 0px 0px 5px white;
+}
+footer{
+    /* position: static; */
+    height: 200px;
+    border-top: 1px solid red;
+    box-shadow: 0px 0px 5px white;
+    margin-top: 650px;
+    display: flex;
+    color: white;
+}
+ footer .footer-item{
+    height: 100px;
+    width: 100px;
+    padding: 10px 25px;
+    
+    margin-left: 1800px;
+    text-decoration: none;
+    position: sticky;
+
+}
+a{
+    font-size: 30px;
+    color: white;
+    font-weight: 100px;
+}
